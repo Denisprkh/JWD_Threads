@@ -1,0 +1,83 @@
+2020-05-17 19:14:25 [Thread-8] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=8, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} got terminal Terminal{isBusy=true, id=5}
+2020-05-17 19:14:25 [Thread-6] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 1
+2020-05-17 19:14:25 [Thread-6] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} left the terminal Terminal{isBusy=false, id=1}
+2020-05-17 19:14:25 [Thread-3] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 3
+2020-05-17 19:14:25 [Thread-3] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} left the terminal Terminal{isBusy=false, id=3}
+2020-05-17 19:14:25 [Thread-7] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} was loaded on terminal with id 2
+2020-05-17 19:14:25 [Thread-7] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} left the terminal Terminal{isBusy=false, id=2}
+2020-05-17 19:14:26 [Thread-8] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=8, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 5
+2020-05-17 19:14:26 [Thread-8] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=8, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} left the terminal Terminal{isBusy=false, id=5}
+2020-05-17 19:14:26 [Thread-4] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=100} was loaded on terminal with id 4
+2020-05-17 19:14:26 [Thread-4] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=100} left the terminal Terminal{isBusy=false, id=4}
+2020-05-17 19:14:44 [main] INFO  prokhorenko.threads.reader.impl.FileReader - Lines were read
+2020-05-17 19:14:44 [Thread-1] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:14:44 [Thread-9] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=9, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} stays in the queue
+2020-05-17 19:14:44 [Thread-1] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=1}
+2020-05-17 19:14:44 [Thread-2] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} stays in the queue
+2020-05-17 19:14:44 [Thread-9] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=9, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} got terminal Terminal{isBusy=true, id=2}
+2020-05-17 19:14:44 [Thread-3] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} stays in the queue
+2020-05-17 19:14:44 [Thread-2] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} got terminal Terminal{isBusy=true, id=3}
+2020-05-17 19:14:44 [Thread-4] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:14:44 [Thread-3] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} got terminal Terminal{isBusy=true, id=4}
+2020-05-17 19:14:44 [Thread-5] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=5, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:14:44 [Thread-4] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=5}
+2020-05-17 19:14:44 [Thread-6] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=30} stays in the queue
+2020-05-17 19:14:44 [Thread-1] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} was loaded on terminal with id 1
+2020-05-17 19:14:44 [Thread-1] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} left the terminal Terminal{isBusy=false, id=1}
+2020-05-17 19:14:44 [Thread-5] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=5, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=1}
+2020-05-17 19:14:44 [Thread-7] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:14:44 [Thread-8] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=8, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} stays in the queue
+2020-05-17 19:14:45 [Thread-10] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=10, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:14:45 [Thread-2] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 3
+2020-05-17 19:14:45 [Thread-5] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=5, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} was loaded on terminal with id 1
+2020-05-17 19:14:45 [Thread-9] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=9, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 2
+2020-05-17 19:14:45 [Thread-3] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 4
+2020-05-17 19:14:46 [Thread-4] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=100} was loaded on terminal with id 5
+2020-05-17 19:15:04 [main] INFO  prokhorenko.threads.reader.impl.FileReader - Lines were read
+2020-05-17 19:15:04 [Thread-1] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:04 [Thread-2] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} stays in the queue
+2020-05-17 19:15:04 [Thread-3] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} stays in the queue
+2020-05-17 19:15:04 [Thread-2] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} got terminal Terminal{isBusy=true, id=1}
+2020-05-17 19:15:04 [Thread-4] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:04 [Thread-3] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} got terminal Terminal{isBusy=true, id=2}
+2020-05-17 19:15:04 [Thread-5] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=5, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:04 [Thread-4] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=3}
+2020-05-17 19:15:05 [Thread-6] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=30} stays in the queue
+2020-05-17 19:15:05 [Thread-7] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:05 [Thread-6] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=30} got terminal Terminal{isBusy=true, id=4}
+2020-05-17 19:15:05 [Thread-7] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=5}
+2020-05-17 19:15:05 [Thread-8] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=8, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} stays in the queue
+2020-05-17 19:15:05 [Thread-9] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=9, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} stays in the queue
+2020-05-17 19:15:05 [Thread-10] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=10, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:05 [Thread-2] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 1
+2020-05-17 19:15:05 [Thread-7] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} was loaded on terminal with id 5
+2020-05-17 19:15:05 [Thread-6] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 4
+2020-05-17 19:15:05 [Thread-3] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 2
+2020-05-17 19:15:06 [Thread-4] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=100} was loaded on terminal with id 3
+2020-05-17 19:15:44 [main] INFO  prokhorenko.threads.reader.impl.FileReader - Lines were read
+2020-05-17 19:15:44 [Thread-1] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:44 [Thread-2] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} stays in the queue
+2020-05-17 19:15:44 [Thread-1] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=1}
+2020-05-17 19:15:44 [Thread-2] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} got terminal Terminal{isBusy=true, id=2}
+2020-05-17 19:15:44 [Thread-3] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} stays in the queue
+2020-05-17 19:15:45 [Thread-4] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:45 [Thread-5] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=5, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:45 [Thread-6] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=30} stays in the queue
+2020-05-17 19:15:45 [Thread-7] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:45 [Thread-1] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} was loaded on terminal with id 1
+2020-05-17 19:15:45 [Thread-1] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=1, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} left the terminal Terminal{isBusy=false, id=1}
+2020-05-17 19:15:45 [Thread-3] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} got terminal Terminal{isBusy=true, id=1}
+2020-05-17 19:15:45 [Thread-4] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=3}
+2020-05-17 19:15:45 [Thread-5] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=5, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=4}
+2020-05-17 19:15:45 [Thread-6] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=30} got terminal Terminal{isBusy=true, id=5}
+2020-05-17 19:15:45 [Thread-8] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=8, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=40} stays in the queue
+2020-05-17 19:15:45 [Thread-10] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=10, truckCapacityType=LARGE, cargoType=PERISHABLE, load=0} stays in the queue
+2020-05-17 19:15:45 [Thread-9] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=9, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=50} stays in the queue
+2020-05-17 19:15:45 [Thread-2] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 2
+2020-05-17 19:15:45 [Thread-2] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=2, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} left the terminal Terminal{isBusy=false, id=2}
+2020-05-17 19:15:45 [Thread-7] INFO  by.prokhorenko.threads.entity.LogisticBase - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=0} got terminal Terminal{isBusy=true, id=2}
+2020-05-17 19:15:45 [Thread-5] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=5, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} was loaded on terminal with id 4
+2020-05-17 19:15:45 [Thread-6] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=6, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 5
+2020-05-17 19:15:46 [Thread-7] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=7, truckCapacityType=SMALL, cargoType=PERISHABLE, load=25} was loaded on terminal with id 2
+2020-05-17 19:15:46 [Thread-3] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=3, truckCapacityType=LARGE, cargoType=NOT_PERISHABLE, load=0} was unloaded on terminal with id 1
+2020-05-17 19:15:47 [Thread-4] INFO  by.prokhorenko.threads.entity.Terminal - Truck Truck{id=4, truckCapacityType=LARGE, cargoType=PERISHABLE, load=100} was loaded on terminal with id 3
